@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px;
+}
+.container {
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-rows: repeat(6, 120px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.pos-1 {
+  /* background-color: lightseagreen; */
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: 32.5% 67.5%;
+}
+.pos-2 {
+  /* background-color: rgb(5, 59, 57); */
+  grid-row: 2/6;
+  margin-left: 10px;
+}
+.pos-3 {
+  /* background-color: rgb(178, 32, 32); */
+  grid-column: 2/4;
+  margin-right: 10px;
+}
+.pos-4 {
+  /* background-color: rgb(71, 32, 178); */
+  grid-column: 3/4;
+  grid-row: 3/6;
+  margin-right: 10px;
+}
+.pos-5 {
+  /* background-color: rgb(61, 178, 32); */
+}
+.pos-6 {
+  /* background-color: rgb(178, 139, 32); */
+}
+.pos-7 {
+  /* background-color: rgb(178, 32, 134); */
+}
+.pos-8 {
+  /* background-color: rgb(178, 90, 32); */
+  grid-column: 1/-1;
+}
+.left .circle {
+  position: relative;
+  border: rgb(241, 245, 24) solid;
+  border-radius: 100%;
+  width: 25%;
+  height: 80%;
+  /* margin: auto;s */
+  left: 20%;
+  top: 10%;
+}
+
+.right h1 {
+  border: none;
+  font-size: 40px;
+}
+.right h2 {
+  border: none;
+  font-size: 35px;
+}
